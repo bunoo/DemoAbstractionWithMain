@@ -1,6 +1,6 @@
 package demo.interfaces;
 
-public class Motorola {
+public class Motorola implements Phone,AdvPhone {
 
 	public boolean call() {
 		return false;

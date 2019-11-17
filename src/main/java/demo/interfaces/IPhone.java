@@ -1,6 +1,6 @@
 package demo.interfaces;
 
-public class IPhone {
+public class IPhone implements Phone {
 
 	public boolean call() {
 		return true;

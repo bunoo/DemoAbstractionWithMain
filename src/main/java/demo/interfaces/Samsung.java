@@ -1,6 +1,6 @@
 package demo.interfaces;
 
-public class Samsung {
+public class Samsung implements Phone {
 
 	public boolean call() {
 		return false;

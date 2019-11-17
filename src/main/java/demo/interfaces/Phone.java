@@ -1,8 +1,8 @@
 package demo.interfaces;
 
-public abstract class Phone {
+public interface Phone {
 
-	public abstract boolean call();
-	public abstract boolean camera();
+	public boolean call();
+	public boolean camera();
 	
 }
