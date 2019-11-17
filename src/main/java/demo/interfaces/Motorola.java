@@ -1,6 +1,6 @@
-package demo.abstraction;
+package demo.interfaces;
 
-public class Motorola extends Phone {
+public class Motorola {
 
 	public boolean call() {
 		return false;

@@ -3,7 +3,7 @@ package demo.abstraction;
 public class RepairPhone {
 
 	
-	public void repairPhone(Phone ph) {
+public void repairPhone(Phone ph) {
 
 		boolean b = ph.call();
 		if (b == false) {
@@ -20,6 +20,7 @@ public static void main (String[] args) {
 	
 	RepairPhone rp = new RepairPhone();
 	rp.repairPhone(new IPhone());
+	rp.repairPhone(new Samsung());
 }	
 	
 }
